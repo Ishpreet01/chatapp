@@ -1,0 +1,62 @@
+.JoinPage{
+    background-color: rgb(31,29,29);
+    width:100vw;
+    height:100vh;
+    display: flex;
+     justify-content: center; /*this works when the flex direction is vertically which is the by default flex direction (row direction) */
+    align-items:center ;  /*this works when the flex-direction is column(horziontal) */
+  
+}
+
+.JoinContainer{
+    border: 2px solid white;
+    height: 40vw;
+    width: 40vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;  /*horizontal align when flex-direction is column*/
+   
+}
+
+.JoinContainer > img{
+    width:23vw;
+}
+
+.JoinContainer > h1{
+    color:white;
+    font-size: 2.5vmax;
+    width:25vw;
+    border-bottom: 0.2vmax solid white;
+    text-align: center;
+    font-family: "Agbalumo";
+}
+
+
+#joinInput{
+    width:20vw;
+    padding: 1vmax;
+    border: none;
+    outline:none;
+    font-size: 1.2vw;
+    margin:0.5vw;
+    box-sizing: border-box;
+}
+
+.joinbtn{
+    width:20vw;
+    padding: 1vmax;
+    border: none;
+    outline:none;
+    color:white;
+    font-family: "Agbalumo";
+    font-size: 1.2vw;
+    background-color: crimson;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    cursor:pointer;
+}
+
+.joinbtn:hover{
+    background-color: rgb(194, 36, 67);
+    
+}

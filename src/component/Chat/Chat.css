@@ -1,0 +1,66 @@
+.chatPage{
+    background-color: rgb(31,29,29);
+    width:100vw;
+    height:100vh;
+    display: flex;
+     justify-content: center; /*this works when the flex direction is vertically which is the by default flex direction (row direction) */
+    align-items:center ;  /*this works when the flex-direction is column(horziontal) */
+  
+}
+
+.chatContainer{
+    background-color: white;
+    height:60%;
+    width: 50%;
+}
+
+.header{
+    background-color: crimson;
+    height:15%;
+}
+
+.chatBox{
+    border: 0.1vw solid black;
+    height:70%;
+    box-sizing: border-box;
+}
+
+.inputBox{
+    border: 0.2vw solid black;
+    height:15%;
+    box-sizing:border-box;
+    display: flex;
+}
+
+#chatInput{
+    width:80%;
+    border:none;
+    background-color: white;
+    padding:1vw;
+    box-sizing: border-box;
+    outline:none;
+    font-size: 2vw;
+    font-family: "Agbalumo";
+}
+
+.sendBtn{
+    background-color:crimson;
+    color:white;
+    width:20%;
+    transition: all 0.3s;
+    cursor: pointer;
+   
+}
+
+.sendBtn:hover{
+    background-color: rgb(156,13,42);
+}
+
+.sendIcon{
+    transition: all 0.1s;
+    font-size: 3.5vw;
+}
+
+.sendBtn:hover .sendIcon{
+    transform: translateX(5px);
+}
