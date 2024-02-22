@@ -64,3 +64,15 @@
 .sendBtn:hover .sendIcon{
     transform: translateX(5px);
 }
+
+
+.closeIcon{
+    float:right;
+    color: white;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.closeIcon:hover{
+    transform: scale(1.1);
+}

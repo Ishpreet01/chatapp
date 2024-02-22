@@ -7,13 +7,8 @@ import Chat from "./component/Chat/Chat";
 
 // const ENDPOINT='http://localhost:3000/';  //address of the server
 
-// const socket=socketIO(ENDPOINT, {transports:['websocket']});
 
 function App() {
-
-  // socket.on("connect",()=>{
-  //   console.log("connected");
-  // });
 
   return (
     <div className="App">
